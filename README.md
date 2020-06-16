@@ -1,49 +1,44 @@
-# Recon-data-ideas.
-Finding subdomines data tools
- 
- These are the keywords.
- 
-%api%
+>> Reconideas and resourses:-
+++ Github:-
+1. github.com/nahamsec
+2. github.com/tomnomnom
 
-%corp%
+++ Youtube
+1.nahamsec
+2.stok
+3.cybermenter
+4.hackspolit
+5.bugbounty
+6.thehackerish
+7.bugcrowd
+8.hackerone
+9.John Hammond
+10.Web Development Tutorials
+11.Tutorials Point
+12.We Are Plymouths
+13.Reconless
+14.LiveOverflow
+15.webpwnized
+16.freecodecamp.org
+17.ProgrammingKnowledge
+18.ippSec
+19.InsiderPhD
+20.PwnFunction
+21.Defconconference
+22.Null Byte
+23.Black Hat
+24.jhaddix
+25.hacktivity
+26.thenewbostan
+27.SECARMY
+28.Ceos3c
+29.Aether security lab
 
-%internal% 
 
-%dev%
 
-# subdomain tools.
 
->> www.github.com/nahamsec
 
-# Tool >> 1.crtsh(most using):-
 
->> %.exampledomain.com
 
->> exampledomain.%
 
->> %25api%25.exampledomain.com
-       or
- >> crtsh exampledomain.com      
 
-# Tool >> 2.certspotter:-
-
->> certspotter exampledomain.com
-
->> certspotter exampledomain.com | wc -l
-
->> certspotter exampledomain.com | grep dev
-
->> certspotter exampledomain.com | grep dev | httprobe
-
-#############################################
-# alive domains or not using this tool {httprobe} 
-
-www.github.com/tomnomnom
-
->> certspotter exampledomain.com | httprobe
-
-# cat all.txt |httprobe | wc -l
-
-# Tool >> 3. shodan.io
-
-# Tool >> 4. censys.io
